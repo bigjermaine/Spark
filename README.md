@@ -1,4 +1,4 @@
-# Spark just Authentication ans Haptic
+# Spark just Authentication And Haptic
 Authentication
 ![Simulator Screen Shot - iphone11 - 2023-06-13 at 13 59 17](https://github.com/bigjermaine/Spark/assets/113020989/477b7396-cf90-45d2-9937-bfad6c15d2b8)
 ![Simulator Screen Shot - iphone11 - 2023-06-13 at 13 59 25](https://github.com/bigjermaine/Spark/assets/113020989/1b7b2abe-4976-484e-ab0b-dcb7e64fa3a4)
