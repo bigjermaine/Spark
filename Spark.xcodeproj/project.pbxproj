@@ -11,6 +11,17 @@
 		184F1DCC2A38018700328F9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F1DCB2A38018700328F9B /* ContentView.swift */; };
 		184F1DCE2A38018900328F9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184F1DCD2A38018900328F9B /* Assets.xcassets */; };
 		184F1DD12A38018900328F9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184F1DD02A38018900328F9B /* Preview Assets.xcassets */; };
+		184F1DDD2A3802BE00328F9B /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F1DDC2A3802BE00328F9B /* HapticManager.swift */; };
+		184F1DDF2A38049800328F9B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184F1DDE2A38049800328F9B /* Launch Screen.storyboard */; };
+		188614CF2A3862C700A72B52 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188614CE2A3862C700A72B52 /* CoreDataManager.swift */; };
+		188614D22A38662000A72B52 /* CoreData1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 188614D02A38662000A72B52 /* CoreData1.xcdatamodeld */; };
+		18893C672A3824E7000754AA /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18893C662A3824E7000754AA /* TabBar.swift */; };
+		18C974BB2A3809E2005C783F /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C974BA2A3809E2005C783F /* WelcomeScreen.swift */; };
+		18C974C12A380A4B005C783F /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C974C02A380A4B005C783F /* SignInView.swift */; };
+		18C974C52A380B20005C783F /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C974C42A380B20005C783F /* SignUpView.swift */; };
+		18C974C82A380C5A005C783F /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C974C72A380C5A005C783F /* Modifiers.swift */; };
+		18C974CA2A381691005C783F /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C974C92A381691005C783F /* BrowseView.swift */; };
+		18C974CC2A3816A0005C783F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C974CB2A3816A0005C783F /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		184F1DCB2A38018700328F9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		184F1DCD2A38018900328F9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		184F1DD02A38018900328F9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		184F1DDC2A3802BE00328F9B /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		184F1DDE2A38049800328F9B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		188614CE2A3862C700A72B52 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		188614D12A38662000A72B52 /* CoreData1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData1.xcdatamodel; sourceTree = "<group>"; };
+		18893C662A3824E7000754AA /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		18C974BA2A3809E2005C783F /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		18C974C02A380A4B005C783F /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		18C974C42A380B20005C783F /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		18C974C72A380C5A005C783F /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		18C974C92A381691005C783F /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		18C974CB2A3816A0005C783F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +73,12 @@
 		184F1DC82A38018700328F9B /* Spark */ = {
 			isa = PBXGroup;
 			children = (
-				184F1DC92A38018700328F9B /* SparkApp.swift */,
+				18C974C62A380C45005C783F /* Extensions */,
+				184F1DDB2A38028500328F9B /* Managers */,
+				184F1DD82A3801A900328F9B /* Resources */,
+				184F1DD72A38019C00328F9B /* Views */,
 				184F1DCB2A38018700328F9B /* ContentView.swift */,
+				184F1DC92A38018700328F9B /* SparkApp.swift */,
 				184F1DCD2A38018900328F9B /* Assets.xcassets */,
 				184F1DCF2A38018900328F9B /* Preview Content */,
 			);
@@ -65,6 +91,61 @@
 				184F1DD02A38018900328F9B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		184F1DD72A38019C00328F9B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18C974BE2A380A13005C783F /* Others */,
+				18C974BF2A380A24005C783F /* Core */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		184F1DD82A3801A900328F9B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				184F1DDE2A38049800328F9B /* Launch Screen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		184F1DDB2A38028500328F9B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				184F1DDC2A3802BE00328F9B /* HapticManager.swift */,
+				188614CE2A3862C700A72B52 /* CoreDataManager.swift */,
+				188614D02A38662000A72B52 /* CoreData1.xcdatamodeld */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		18C974BE2A380A13005C783F /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				18C974BA2A3809E2005C783F /* WelcomeScreen.swift */,
+				18C974C02A380A4B005C783F /* SignInView.swift */,
+				18C974C42A380B20005C783F /* SignUpView.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		18C974BF2A380A24005C783F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				18C974C92A381691005C783F /* BrowseView.swift */,
+				18893C662A3824E7000754AA /* TabBar.swift */,
+				18C974CB2A3816A0005C783F /* ProfileView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		18C974C62A380C45005C783F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				18C974C72A380C5A005C783F /* Modifiers.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184F1DDF2A38049800328F9B /* Launch Screen.storyboard in Resources */,
 				184F1DD12A38018900328F9B /* Preview Assets.xcassets in Resources */,
 				184F1DCE2A38018900328F9B /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +220,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				184F1DCC2A38018700328F9B /* ContentView.swift in Sources */,
+				18C974CA2A381691005C783F /* BrowseView.swift in Sources */,
+				188614D22A38662000A72B52 /* CoreData1.xcdatamodeld in Sources */,
+				18C974CC2A3816A0005C783F /* ProfileView.swift in Sources */,
+				18C974C12A380A4B005C783F /* SignInView.swift in Sources */,
+				184F1DDD2A3802BE00328F9B /* HapticManager.swift in Sources */,
+				18C974C52A380B20005C783F /* SignUpView.swift in Sources */,
+				188614CF2A3862C700A72B52 /* CoreDataManager.swift in Sources */,
+				18C974C82A380C5A005C783F /* Modifiers.swift in Sources */,
+				18C974BB2A3809E2005C783F /* WelcomeScreen.swift in Sources */,
 				184F1DCA2A38018700328F9B /* SparkApp.swift in Sources */,
+				18893C672A3824E7000754AA /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +365,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -280,7 +373,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jermaine.Spark;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jermaine.Spark22;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -302,6 +395,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,7 +403,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jermaine.Spark;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jermaine.Spark22;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,6 +433,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		188614D02A38662000A72B52 /* CoreData1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				188614D12A38662000A72B52 /* CoreData1.xcdatamodel */,
+			);
+			currentVersion = 188614D12A38662000A72B52 /* CoreData1.xcdatamodel */;
+			path = CoreData1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 184F1DBE2A38018700328F9B /* Project object */;
 }
